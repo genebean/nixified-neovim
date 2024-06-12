@@ -12,6 +12,10 @@
     #   url = "github:Cassin01/wf.nvim";
     #   flake = false;
     # };
+    mason-null-ls = {
+      url = "github:jay-babu/mason-null-ls.nvim";
+      flake = false;
+    };
   };
 
   outputs = inputs @ {
